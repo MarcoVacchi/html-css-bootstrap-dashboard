@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header class="mb-5">
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="/index.html"><img src="img/duck.png" alt="foto-logo" width="60px" height="60px"></a>
+              <button class="navbar-toggler border border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#">Catalogo Libri</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white-50" href="#">Anagrafica Utenti</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link text-white-50" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Storico prestiti
+                    </a>
+                  <li class="nav-item">
+                    <a class="nav-link disabled text-white-50" aria-disabled="true">Help</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="Cerca..." placeholder="Cerca..." aria-label="Cerca...">
+                  <button class="btn btn-outline-success border border-white text-light" type="submit">Cerca</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+  
+    <main>
+
+      <div class="container-sm">
+
+        <header> 
+          <h2 class="p-2">Nuovo Libro</h2>
+        </header>
+
+        <form class="container-sm d-flex gap-3">
+          <div class="col-md-6 col-sm-6">
+            <label for="name-author" class="form-label">Nome Autore</label>
+            <input type="email" class="form-control" id="name-author" placeholder="Inserisci il nome dell'autore">
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <label for="surname-author" class="form-label">Cognome Autore</label>
+            <input type="password" class="form-control" id="surname-author" placeholder="Inserisci il cognome dell'autore">
+        </form>
+      
+
+      </div>
+          
+
+      
+    </main>
+</body>
+</html>
